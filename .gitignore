@@ -1,0 +1,17 @@
+# Environment variables (Sensitive!)
+.env
+
+# Python artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+
+# ML Models (Large files)
+*.pt
+*.onnx
+
+# Results/Logs
+*.log
+runs/
