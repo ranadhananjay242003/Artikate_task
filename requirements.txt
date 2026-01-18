@@ -4,3 +4,6 @@ pillow
 google-genai
 python-dotenv
 ultralytics
+transformers
+torch
+gradio

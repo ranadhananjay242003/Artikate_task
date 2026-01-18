@@ -38,9 +38,17 @@ This system analyzes image suitability for e-commerce by extracting modular visu
    ```
 
 2. **Setup API Key** (Optional):
-   Rename `.env.example` to `.env` and add your `GEMINI_API_KEY`. If no key is provided, the system runs in **Mock/Heuristic mode**.
+   Create a `.env` file and add your `GEMINI_API_KEY`. If no key is provided, the system runs in **Mock/Heuristic mode**.
 
 3. **Run Analysis**:
+   
+   **Option A: Web Interface (Recommended)**
+   ```bash
+   python app_ui.py
+   ```
+   Then open `http://localhost:7860` in your browser.
+   
+   **Option B: Command Line**
    ```bash
    python main.py path/to/image.jpg
    ```
